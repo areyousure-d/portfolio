@@ -1,0 +1,68 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "name": "landing-page",
+      "description": "Простой landing-page, отзывчивая адаптивная верстка.",
+      "demo": "https://areyousure92.github.io/portfolio-lp/",
+      "github": "https://github.com/areyousure92/portfolio-lp",
+      "image": "/landing-page.png",
+      "technologies": [
+        { "id": 1, "name": "html" }, 
+        { "id": 2, "name": "scss" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "trello clone",
+      "description": "Простой клон trello. Реализовано перетаскивание, добавление и удаление карточек/колонок.",
+      "demo": "https://areyousure92.github.io/trello-clone-js/",
+      "github": "https://github.com/areyousure92/trello-clone-js",
+      "image": "/trello_clone.png",
+      "technologies": [
+        { "id": 1, "name": "js" }, 
+        { "id": 2, "name": "scss" },
+        { "id": 3, "name": "jsx" },
+        { "id": 4, "name": "webpack" }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "hermione",
+      "description": "Небольшое приложение для интервальных повторений. На беке nodejs и mongo. Необходимо зарегистрироваться и войти. Можно зайти под логин: username и пароль: username",
+      "demo": "http://hermione.fvds.ru/",
+      "github": "https://github.com/areyousure92/hermione",
+      "image": "/hermione.png",
+      "technologies": [
+        { "id": 1, "name": "react" },
+        { "id": 2, "name": "redux" }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "rick and morty",
+      "description": "Приложение с информацией о персонажах мультсериала Rick and Morty. Регистрация фейковая.",
+      "demo": "https://areyousure92.github.io/rick-and-morty/#/",
+      "github": "https://github.com/areyousure92/rick-and-morty",
+      "image": "/rick_and_morty.png",
+      "technologies": [
+        { "id": 1, "name": "react" },
+        { "id": 2, "name": "graphql" },
+        { "id": 3, "name": "react-bootstrap" }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "react fake store",
+      "description": "Интернет магазин в минималистичном стиле. Для совершения покупок необходимо зарегистрироваться и войти. Регистрация фейковая.",
+      "demo": "https://areyousure92.github.io/react-fake-store/#/",
+      "github": "https://github.com/areyousure92/react-fake-store",
+      "image": "/fake_store.png",
+      "technologies": [
+        { "id": 2, "name": "react" },
+        { "id": 3, "name": "redux" }
+      ]
+    }
+  ]
+}
+
