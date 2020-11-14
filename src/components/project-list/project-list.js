@@ -12,10 +12,14 @@ const ProjectList = () => {
 
   useEffect(() => {
     setLoading(true);
-    fetch('/projects.json')
+    fetch(process.env.PUBLIC_URL + '/projects.json')
       .then((res) => res.json())
       .then((data) => { 
-        setProjects(data.projects)
+        const projects = data.projects.map((project) => {
+          project.image = process.env.PUBLIC_URL + project.image;
+          return project;
+        });
+        setProjects(projects)
         setLoading(false);
       })
       .catch((err) => setError(err));
@@ -23,11 +27,19 @@ const ProjectList = () => {
 
 
   if (loading) {
-    return (<div>Загрузка...</div>);
+    return (
+      <div className="project-list">
+        <h3 className="loading">Загрузка...</h3>
+      </div>
+    );
   }
 
   if (error) {
-    return <div>Ошибка</div>
+    return (
+      <div className="project-list">
+        <h3 className="error">Ошибка</h3>
+      </div>
+    );
   }
 
 

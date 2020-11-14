@@ -1,7 +1,9 @@
+body {
+  background-color: #201f1f;
+}
 .app {
   width: 100%;
   height: 100%;
-  background-color: #201f1f;
 }
 
 .wrapper {
