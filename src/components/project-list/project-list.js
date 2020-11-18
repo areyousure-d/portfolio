@@ -49,7 +49,7 @@ const ProjectList = () => {
 
   return (
     <div className="project-list">
-      <h2 className="title">projects</h2>
+      <h2 className="title">Работы</h2>
       <ul className="project-list__list">
         { list }
       </ul>

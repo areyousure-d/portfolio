@@ -15,15 +15,22 @@ const ProjectListItem = ({ project }) => {
   return (
     <li className="project-list-item">
 
-      <div className="project-list__image">
+      <a 
+        href={demo} 
+        target="_blank" 
+        rel="noreferrer" 
+        className="project-list__image"
+      >
         <img 
           src={image}
           alt=""
         />
-      </div>
+      </a>
 
       <div className="details">
-        <h3 className="name mb">{ name }</h3>
+        <h3 className="name mb">
+          <a href={demo} target="_blank" rel="noreferrer">{ name }</a>
+        </h3>
         <p className="description mb">{ description }</p>
         <p className="tech-title">Использованные технологии</p>
         <ul className="technologies">
@@ -33,7 +40,7 @@ const ProjectListItem = ({ project }) => {
 
       <div className="links">
         <a href={github} target="_blank" rel="noreferrer">github</a>
-        <a href={demo} target="_blank" rel="noreferrer">demo</a>
+        <a href={demo} target="_blank" rel="noreferrer">посмотреть</a>
       </div>
 
     </li>
