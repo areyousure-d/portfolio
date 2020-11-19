@@ -46,12 +46,8 @@
   justify-content: center;
 }
 
-@media(max-width: 580px) {
-  .hello {
-    padding-top: 50px;
-  }
+@media(max-width: 630px) {
   .info {
-    padding-top: 50px;
     grid-template-areas: 
       "location" 
       "age" 
@@ -59,6 +55,7 @@
       "phone";
   }
 }
+
 
 .info__item {
   display: grid;

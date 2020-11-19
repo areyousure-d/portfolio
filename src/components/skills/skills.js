@@ -14,7 +14,6 @@ const Skills = () => {
       .then((res) => res.json())
       .then((data) => {
         setLoading(false);
-        console.log(data);
         setSkills(data.skills);
       })
       .catch((err) => setError(err));

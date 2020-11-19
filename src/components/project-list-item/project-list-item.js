@@ -8,7 +8,6 @@ const ProjectListItem = ({ project }) => {
     description, 
     demo, 
     github, 
-    image, 
     technologies 
   } = project;
 
