@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 
 import ProjectListItem from '../project-list-item';
 
-import './project-list.css';
 import styles from './project-list.module.css';
 
 const ProjectList = () => {
