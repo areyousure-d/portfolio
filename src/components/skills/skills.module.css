@@ -1,0 +1,19 @@
+.skills {
+  padding: 100px 0;
+  min-height: 400px;
+  background-color: #f4f5f8;
+  color: #384665;
+}
+
+.title {
+  margin-bottom: 50px;
+  font-size: 36px;
+  text-align: center;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+}
+

@@ -1,15 +1,17 @@
 import React from 'react';
 
 import ProjectList from '../project-list';
+import About from '../about';
+import Skills from '../skills';
 
 import './app.css';
 
 const App = () => {
   return (
     <div className="app">
-      <div className="wrapper">
-        <ProjectList />
-      </div>
+      <About />
+      <Skills />
+      <ProjectList />
     </div>
   );
 };

@@ -1,0 +1,19 @@
+.project-list {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fff;
+}
+
+.title {
+  text-align: center;  
+  margin-bottom: 25px;
+  font-size: 36px;
+  color: #384665;
+}
+
+.list {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+

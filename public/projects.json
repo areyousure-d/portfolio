@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "landing-page",
-      "description": "Простой landing-page, отзывчивая адаптивная верстка.",
+      "description": "A simple landing-page, responsive and adaptive layout.",
       "demo": "https://areyousure92.github.io/portfolio-lp/",
       "github": "https://github.com/areyousure92/portfolio-lp",
       "image": "/landing-page.png",
@@ -15,7 +15,7 @@
     {
       "id": 2,
       "name": "trello clone",
-      "description": "Простой клон trello. Реализовано перетаскивание, добавление и удаление карточек/колонок.",
+      "description": "Simple trello clone. Just drag and drop + add/delete",
       "demo": "https://areyousure92.github.io/trello-clone-js/",
       "github": "https://github.com/areyousure92/trello-clone-js",
       "image": "/trello_clone.png",
@@ -29,7 +29,7 @@
     {
       "id": 3,
       "name": "hermione",
-      "description": "Небольшое приложение для интервальных повторений. На беке nodejs и mongo. Необходимо зарегистрироваться и войти. Можно зайти под логин: username и пароль: username",
+      "description": "A small application for interval repetitions. On the backend - nodejs and mongodb. You need to register and log in.",
       "demo": "http://hermione.fvds.ru/",
       "github": "https://github.com/areyousure92/hermione",
       "image": "/hermione.png",
@@ -41,7 +41,7 @@
     {
       "id": 4,
       "name": "rick and morty",
-      "description": "Приложение с информацией о персонажах мультсериала Rick and Morty. Регистрация фейковая.",
+      "description": "Application with information about the characters of Rick and Morty. Fake registration.",
       "demo": "https://areyousure92.github.io/rick-and-morty/#/",
       "github": "https://github.com/areyousure92/rick-and-morty",
       "image": "/rick_and_morty.png",
@@ -54,7 +54,7 @@
     {
       "id": 5,
       "name": "react fake store",
-      "description": "Интернет магазин в минималистичном стиле. Для совершения покупок необходимо зарегистрироваться и войти. Регистрация фейковая.",
+      "description": "Ecommerce store in minimalistic style. To make purchases you should register and login.",
       "demo": "https://areyousure92.github.io/react-fake-store/#/",
       "github": "https://github.com/areyousure92/react-fake-store",
       "image": "/fake_store.png",
@@ -62,6 +62,32 @@
         { "id": 2, "name": "react" },
         { "id": 3, "name": "redux" }
       ]
+    }
+  ],
+  "skills": [
+    {
+      "id": 1,
+      "name": "HTML"
+    },
+    {
+      "id": 2,
+      "name": "CSS/SCSS"
+    },
+    {
+      "id": 3,
+      "name": "JavaScript/ES6"
+    },
+    {
+      "id": 4,
+      "name": "React"
+    },
+    {
+      "id": 5,
+      "name": "Webpack"
+    },
+    {
+      "id": 6,
+      "name": "GIT"
     }
   ]
 }
