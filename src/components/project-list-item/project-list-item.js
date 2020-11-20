@@ -28,7 +28,7 @@ const ProjectListItem = ({ project }) => {
 
       <div className="links">
         <a href={github} target="_blank" rel="noreferrer">Github</a>
-        <a href={demo} target="_blank" rel="noreferrer">Посмотреть</a>
+        <a href={demo} target="_blank" rel="noreferrer">Demo</a>
       </div>
 
     </li>
