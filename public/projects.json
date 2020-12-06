@@ -8,7 +8,7 @@
       "github": "https://github.com/areyousure92/portfolio-lp",
       "image": "/landing-page.png",
       "technologies": [
-        { "id": 1, "name": "html" }, 
+        { "id": 1, "name": "html" },
         { "id": 2, "name": "scss" }
       ]
     },
@@ -20,7 +20,7 @@
       "github": "https://github.com/areyousure92/trello-clone-js",
       "image": "/trello_clone.png",
       "technologies": [
-        { "id": 1, "name": "js" }, 
+        { "id": 1, "name": "js" },
         { "id": 2, "name": "scss" },
         { "id": 3, "name": "jsx" },
         { "id": 4, "name": "webpack" }
@@ -88,7 +88,10 @@
     {
       "id": 6,
       "name": "GIT"
+    },
+    {
+      "id": 7,
+      "name": "Typescript"
     }
   ]
 }
-
