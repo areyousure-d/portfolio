@@ -4,8 +4,8 @@
       "id": 1,
       "name": "landing-page",
       "description": "A simple landing-page, responsive and adaptive layout.",
-      "demo": "https://areyousure92.github.io/portfolio-lp/",
-      "github": "https://github.com/areyousure92/portfolio-lp",
+      "demo": "https://areyousure-d.github.io/portfolio-lp/",
+      "github": "https://github.com/areyousure-d/portfolio-lp",
       "image": "/landing-page.png",
       "technologies": [
         { "id": 1, "name": "html" },
@@ -16,8 +16,8 @@
       "id": 2,
       "name": "trello clone",
       "description": "Simple trello clone. Just drag and drop + add/delete",
-      "demo": "https://areyousure92.github.io/trello-clone-js/",
-      "github": "https://github.com/areyousure92/trello-clone-js",
+      "demo": "https://areyousure-d.github.io/trello-clone-js/",
+      "github": "https://github.com/areyousure-d/trello-clone-js",
       "image": "/trello_clone.png",
       "technologies": [
         { "id": 1, "name": "js" },
@@ -31,7 +31,7 @@
       "name": "hermione",
       "description": "A small application for interval repetitions. On the backend - nodejs and mongodb. You need to register and log in.",
       "demo": "http://hermione.fvds.ru/",
-      "github": "https://github.com/areyousure92/hermione",
+      "github": "https://github.com/areyousure-d/hermione",
       "image": "/hermione.png",
       "technologies": [
         { "id": 1, "name": "react" },
@@ -42,8 +42,8 @@
       "id": 4,
       "name": "rick and morty",
       "description": "Application with information about the characters of Rick and Morty. Fake registration.",
-      "demo": "https://areyousure92.github.io/rick-and-morty/#/",
-      "github": "https://github.com/areyousure92/rick-and-morty",
+      "demo": "https://areyousure-d.github.io/rick-and-morty/#/",
+      "github": "https://github.com/areyousure-d/rick-and-morty",
       "image": "/rick_and_morty.png",
       "technologies": [
         { "id": 1, "name": "react" },
@@ -55,8 +55,8 @@
       "id": 5,
       "name": "react fake store",
       "description": "Ecommerce store in minimalistic style. To make purchases you should register and login.",
-      "demo": "https://areyousure92.github.io/react-fake-store/#/",
-      "github": "https://github.com/areyousure92/react-fake-store",
+      "demo": "https://areyousure-d.github.io/react-fake-store/#/",
+      "github": "https://github.com/areyousure-d/react-fake-store",
       "image": "/fake_store.png",
       "technologies": [
         { "id": 2, "name": "react" },
